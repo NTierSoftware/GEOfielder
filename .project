@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Copy of GEOfielder</name>
+	<comment></comment>
+	<projects>
+		<project>google-play-services_lib</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.PreCompilerBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>proguard</name>
+			<type>2</type>
+			<location>C:/adt-bundle-windows-x86-20130917/sdk/tools/proguard</location>
+		</link>
+		<link>
+			<name>src/com/ntier/rest/model/Deployment.java</name>
+			<type>1</type>
+			<location>C:/WorkspaceOEPE/GaelWebSvcGF4/src/com/ntier/rest/model/Deployment.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

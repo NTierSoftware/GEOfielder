@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ExtraTranslation" severity="warning" />
+    <issue id="MissingPrefix" severity="warning">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="MissingQuantity" severity="warning" />
+    <issue id="MissingTranslation" severity="warning" />
+    <issue id="NewApi">
+        <ignore path="src/com/ntier/android/util/GaelDbProvider.java" />
+    </issue>
+</lint>

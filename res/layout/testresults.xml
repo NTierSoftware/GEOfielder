@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/space1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="" />
+
+	<TextView
+		android:id="@+id/space2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="" />
+
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:orientation="vertical"
+		android:shrinkColumns="*"
+		android:stretchColumns="*" >
+
+		<TableRow
+			android:id="@+id/TestResultsrow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal" >
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:layout_span="4"
+				android:background="#FFFFFF"
+				android:gravity="center"
+				android:text="Test Results"
+				android:textAllCaps="true"
+				android:textColor="#000000" />
+		</TableRow>
+
+		<TextView
+			android:id="@+id/space3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="" />
+
+		<TableRow
+			android:id="@+id/headerrow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal" >
+
+			<TextView
+				android:id="@+id/testhdr"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="left"
+				android:text="Test"
+				android:textColor="#000000"
+				android:textStyle="italic" />
+
+			<TextView
+				android:id="@+id/statushdr"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="center_horizontal"
+				android:text="Status"
+				android:textColor="#000000"
+				android:textStyle="italic" />
+
+			<TextView
+				android:id="@+id/verhdr"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="center_horizontal"
+				android:text="Version"
+				android:textColor="#000000"
+				android:textStyle="italic" />
+
+			<TextView
+				android:id="@+id/deployhdr"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="right"
+				android:text="Deploy"
+				android:textColor="#000000"
+				android:textStyle="italic" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/AppRow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal" >
+
+			<TextView
+				android:id="@+id/approw"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="left"
+				android:text="App"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/AppResult"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="center"
+				android:text="\?"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/AppVer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="center_horizontal"
+				android:text="\?"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/AppDeploy"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="right"
+				android:text="\?"
+				android:textColor="#000000" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/GPSrow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal" >
+
+			<TextView
+				android:id="@+id/gpsrow"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="left"
+				android:text="GPS"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/GPSResult"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="center_horizontal"
+				android:text="\?"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/GPSVer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="center_horizontal"
+				android:text="\?"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/GPSDeploy"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="right"
+				android:text="\?"
+				android:textColor="#000000" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/Netrow"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal" >
+
+			<TextView
+				android:id="@+id/netrow"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="left"
+				android:text="Net"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/NetResult"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="center_horizontal"
+				android:text="\?"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/NetVer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="center_horizontal"
+				android:text="\?"
+				android:textColor="#000000" />
+
+			<TextView
+				android:id="@+id/NetDeploy"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="1dp"
+				android:background="#FFFFFF"
+				android:gravity="right"
+				android:text="\?"
+				android:textColor="#000000" />
+		</TableRow>
+	</TableLayout>
+
+</LinearLayout>

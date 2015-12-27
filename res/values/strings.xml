@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">GAEL</string>
+
+<!-- THERE MUST ONLY BE 1 (ONE) ACCOUNT OF TYPE accountType! 
+Please see files 
+	Contract.java
+	Connection.properties
+	res/values/strings.xml, 
+	res/xml/authenticator.xml, and
+	res/xml/syncadapter.xml
+-->
+<string name="AUTHORITY">com.ntier.android.SQLite.Provider</string>
+<string name="accountType">ntier.authenticator.com</string>
+
+<string name="crash_toast_text">GAEL is sending status now.</string>
+
+<string name="action_finish">Exit</string>
+<string name="action_email">NTierSoftwareEngineering@gmail.com</string>
+<string name="action_settings">Settings</string>
+<string name="action_test">Test</string>
+
+<string name="appDescription">G.eo A.sset and E.vent L.ocator</string>
+<string name="DbSqLiteName">GAEL database</string>
+
+<string name="SyncSvcDesc">Syncs GAEL mobile data to the Webserver</string>
+<string name="AuthSvcDesc">Authorizes GAEL</string>
+
+</resources>
